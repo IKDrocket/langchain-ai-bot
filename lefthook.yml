@@ -1,0 +1,9 @@
+pre-commit:
+  # parallel: true
+  commands:
+    lint:
+      glob: "*.{py}"
+      run: rye run lint {staged_files}
+    mypy:
+      glob: "*.{py}"
+      run: rye run typecheck {staged_files}
