@@ -33,6 +33,16 @@
       "envFile": "${workspaceFolder}/.env",
       "console": "integratedTerminal",
       "justMyCode": true
+    },
+    {
+      "name": "markdown explainer",
+      "type": "python",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "src/markdown_explainer.py"],
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal",
+      "justMyCode": true
     }
   ]
 }
