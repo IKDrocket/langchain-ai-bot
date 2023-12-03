@@ -12,6 +12,8 @@ dependencies = [
     "youtube-transcript-api>=0.6.1",
     "pytube>=15.0.0",
     "tiktoken>=0.5.1",
+    "PyPDF2>=3.0.1",
+    "qdrant-client>=1.6.9",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
